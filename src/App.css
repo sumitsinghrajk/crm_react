@@ -1,0 +1,169 @@
+.navbar {
+    
+  display: inline-flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  color: white;
+}
+
+.container{
+
+display: inline-block; /* Make the container inline-block */
+padding: 20px; /* Add padding inside the container */
+
+}
+
+.logoimg{
+
+   position: relative;
+   top: 50%;
+   left:150%;
+   transform: translate(-1%, -11%);
+
+}
+
+.content1{
+position: relative;
+top: 50%;
+left:200%;
+transform: translate(-50%, -50%);
+
+}
+
+.wholecontent{
+display: inline-block; /* Make the container inline-block */
+border: 2px solid #ccc; /* Add a 2px solid border with a light gray color */
+padding: 10px; /* Add padding inside the container */
+}
+
+.imagelogo{
+  margin-left: 900px;
+  /* margin-bottom: 324px; */
+  height: 500px;
+  width: 700px;
+  transform: translate(-20%, -65%);
+}
+.imagelogo1{
+  margin-left: 900px;
+  /* margin-bottom: 324px; */
+  height: 500px;
+  width: 700px;
+  transform: translate(-135%, -30%);
+}
+.imagelogo2{
+  margin-left: 900px;
+  /* margin-bottom: 324px; */
+  height: 500px;
+  width: 700px;
+  transform: translate(-20%, -65%);
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 450px; /* Centers vertically in the viewport */
+  transform: translate(300%, -45%);
+  border: outset;
+  /* box-shadow: #ccc; */
+  border-color: rgb(224, 223, 223);
+  background-color: #fff;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  text-align: left;
+  width: 300px; /* Adjust the width as needed */
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  margin: 5px;
+
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #731251;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+ margin-left: 80px;
+}
+
+
+button:hover {
+  background-color: #b30092;
+  
+
+}
+
+.xcenter{
+  transform: translate(526%, -65%);
+}
+
+.textcss{
+  width: 500px;
+  transform: translate(100%, -25%);
+  color: lightslategrey;
+}
+.textcss2{
+  width: 300px;
+  transform: translate(1%, -1%);
+}
+
+.solution{
+  color: rgb(113, 125, 138);
+}
+.photo-row {
+  display: flex; /* Display the photos in a row */
+  justify-content: space-between; 
+  transform: translate(150%, 50%);
+}
+
+.photo {
+  text-align: center; /* Center-align the photo and its description */
+  /* margin: 5px; 
+  margin-right: 0px; */
+}
+.otherimage{
+  display: flex;
+  transform: translate(230%, 75%);
+}
+
+
+.pinkimagecontainer{
+  background-color: #eb5875;
+  height: 80vh;
+  width: 1440px;
+  margin-top: 200px;
+}
+
+.pinkimagecontent {
+  text-align: center;
+  margin-top: 20px;
+}
+.plazacrm{
+  width: 600px;
+  transform: translate(78%, 25%);
+  color: white;
+  margin-top: 20px;
+}
+.footerimage{
+  transform: translate(160%, 25%);
+}
